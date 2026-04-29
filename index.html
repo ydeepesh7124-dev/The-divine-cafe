@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divine Cafe | Savour Moments, Taste Elegance</title>
+    <meta name="description" content="Divine Cafe: Where every bite creates a divine experience. Enjoy premium food, great ambience, and memorable moments.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Glassmorphism Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="images/logo.png" alt="Divine Cafe Logo" class="brand-logo">
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#speciality">Speciality</a>
+                <a href="#gaming">Gaming</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+            <a href="#order" class="btn btn-outline glow-on-hover">Order Now</a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/media__1777445330042.png" alt="Luxurious Cafe Interior" class="parallax-img">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content floating-element-slow">
+                <h1 class="hero-title">Savour Moments,<br><span class="text-gold">Taste Elegance</span></h1>
+                <p class="hero-subtitle">Where every bite creates a divine experience</p>
+                <div class="hero-cta">
+                    <a href="https://wa.me/918299324494" class="btn btn-primary glow-on-hover" target="_blank">Order Now on WhatsApp</a>
+                    <a href="#menu" class="btn btn-glass">View Menu</a>
+                </div>
+            </div>
+
+            <div class="hero-floating-cards">
+                <div class="floating-card anti-gravity delay-1">
+                    <div class="card-img-wrapper">
+                        <img src="images/media__1777445335517.jpg" alt="Refreshing Mojitos">
+                    </div>
+                    <div class="card-content">
+                        <h3>Refreshing Mojitos</h3>
+                    </div>
+                </div>
+                <div class="floating-card anti-gravity delay-2">
+                    <div class="card-img-wrapper">
+                        <img src="images/media__1777446200277.jpg" alt="Spring Rolls">
+                    </div>
+                    <div class="card-content">
+                        <h3>Crispy Spring Rolls</h3>
+                    </div>
+                </div>
+                <div class="floating-card anti-gravity delay-3">
+                    <div class="card-img-wrapper">
+                        <img src="images/media__1777446194655.jpg" alt="Cheese Bread">
+                    </div>
+                    <div class="card-content">
+                        <h3>Cheesy Garlic Bread</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content reveal-on-scroll">
+                    <h2 class="section-title">A Divine <span class="text-gold">Experience</span></h2>
+                    <p class="about-text">
+                        Divine Cafe is not just about food, it's about creating moments filled with taste, warmth, and happiness. Every dish is crafted with passion to bring people together.
+                    </p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="feature-icon">🌟</div>
+                            <p>Premium Quality</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🍃</div>
+                            <p>Fresh Ingredients</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✨</div>
+                            <p>Elegant Ambience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal-on-scroll delay-2">
+                    <div class="glass-frame">
+                        <img src="images/media__1777446196418.jpg" alt="Gourmet Burger" class="zoom-on-hover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section-padding bg-light" id="menu">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">Our <span class="text-gold">Menu</span></h2>
+                <p>Discover our carefully curated selection of divine dishes</p>
+            </div>
+
+            <div class="menu-categories reveal-on-scroll delay-1">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="mains">Main Course</button>
+                <button class="category-btn" data-category="continental">Continental</button>
+                <button class="category-btn" data-category="starters">Starters & Soups</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Divine Fried Rice -->
+                <div class="menu-item glass-card reveal-on-scroll" data-category="mains">
+                    <div class="item-img">
+                        <img src="images/media__1777446022907.jpg" alt="Divine Fried Rice">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-header">
+                            <h3>Divine Fried Rice</h3>
+                            <span class="price">₹179</span>
+                        </div>
+                        <p>Aromatic fried rice tossed with fresh vegetables and signature spices.</p>
+                    </div>
+                </div>
+
+                <!-- Cheese Bread -->
+                <div class="menu-item glass-card reveal-on-scroll delay-1" data-category="starters">
+                    <div class="item-img">
+                        <img src="images/media__1777446194655.jpg" alt="Cheesy Garlic Bread">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-header">
+                            <h3>Cheesy Garlic Bread</h3>
+                            <span class="price">₹129</span>
+                        </div>
+                        <p>Freshly baked bread loaded with melted cheese and herbs.</p>
+                    </div>
+                </div>
+
+                <!-- Crispy Wedges -->
+                <div class="menu-item glass-card reveal-on-scroll delay-2" data-category="starters">
+                    <div class="item-img">
+                        <img src="images/media__1777446197748.jpg" alt="Crispy Potato Wedges">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-header">
+                            <h3>Crispy Potato Wedges</h3>
+                            <span class="price">₹109</span>
+                        </div>
+                        <p>Perfectly seasoned crispy wedges served with a tantalizing dip.</p>
+                    </div>
+                </div>
+                
+                <!-- Refreshing Mojitos -->
+                <div class="menu-item glass-card reveal-on-scroll" data-category="starters">
+                    <div class="item-img">
+                        <img src="images/media__1777445335517.jpg" alt="Refreshing Mojitos">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-header">
+                            <h3>Refreshing Mojitos</h3>
+                            <span class="price">₹139</span>
+                        </div>
+                        <p>Cool and vibrant mojitos to quench your thirst and lift your mood.</p>
+                    </div>
+                </div>
+
+                <!-- Grilled Corn Sandwich -->
+                <div class="menu-item glass-card reveal-on-scroll delay-1" data-category="continental">
+                    <div class="item-img">
+                        <img src="images/media__1777446002861.jpg" alt="Grilled Corn Sandwich">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-header">
+                            <h3>Grilled Corn Sandwich</h3>
+                            <span class="price">₹129</span>
+                        </div>
+                        <p>Crispy grilled sandwich stuffed with sweet corn and melted cheese.</p>
+                    </div>
+                </div>
+                
+                <!-- Spicy Red Noodles -->
+                <div class="menu-item glass-card reveal-on-scroll delay-2" data-category="mains">
+                    <div class="item-img">
+                        <img src="images/media__1777446002833.png" alt="Spicy Red Noodles">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-header">
+                            <h3>Spicy Red Noodles</h3>
+                            <span class="price">₹159</span>
+                        </div>
+                        <p>Wok-tossed noodles with fiery red sauce and fresh veggies.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 reveal-on-scroll">
+                 <a href="#order" class="btn btn-primary glow-on-hover">Explore Full Menu on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speciality Section -->
+    <section class="speciality section-padding" id="speciality">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">Divine <span class="text-gold">Specialities</span></h2>
+                <p>Our signature creations that define luxury dining</p>
+            </div>
+
+            <div class="speciality-grid">
+                <div class="speciality-card premium-glow reveal-on-scroll">
+                    <div class="speciality-img">
+                        <img src="images/special_thali_1777444197813.png" alt="Sripuram Special Thali">
+                    </div>
+                    <div class="speciality-content">
+                        <div class="badge">Must Try</div>
+                        <h3>Sripuram Special Thali</h3>
+                        <p>An extravagant dining experience featuring our finest curries, premium rice, and assorted flatbreads.</p>
+                    </div>
+                </div>
+
+                <div class="speciality-card premium-glow reveal-on-scroll delay-2">
+                    <div class="speciality-img">
+                        <img src="images/media__1777446002850.jpg" alt="Divine Green Rice">
+                    </div>
+                    <div class="speciality-content">
+                        <div class="badge">Bestseller</div>
+                        <h3>Divine Green Rice Bowl</h3>
+                        <p>A signature creation featuring fragrant green rice, fresh garnishes, and a tantalizing spicy dip.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gaming Zone Section -->
+    <section class="gaming section-padding" id="gaming">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content reveal-on-scroll">
+                    <h2 class="section-title">Ultimate <span class="text-gold">Gaming Zone</span></h2>
+                    <p class="about-text">
+                        Challenge your friends to a game of pool in our dedicated gaming lounge. It's the perfect way to unwind, enjoy your favorite drinks, and make memories.
+                    </p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="feature-icon">🎱</div>
+                            <p>Premium Pool Tables</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎮</div>
+                            <p>Chill Vibes</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎵</div>
+                            <p>Great Music</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal-on-scroll delay-2">
+                    <div class="glass-frame">
+                        <img src="images/media__1777446022962.jpg" alt="Gaming Zone Pool Table" class="zoom-on-hover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding bg-light" id="gallery">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">Visual <span class="text-gold">Journey</span></h2>
+                <p>A glimpse into the divine experience</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Real Images -->
+                <div class="gallery-item glass-frame reveal-on-scroll">
+                    <img src="images/media__1777446022962.jpg" alt="Pool Table Lounge">
+                    <div class="gallery-overlay">
+                        <span>Pool Lounge</span>
+                    </div>
+                </div>
+                <div class="gallery-item glass-frame reveal-on-scroll delay-1">
+                    <img src="images/media__1777445327461.png" alt="Cafe Real Experience">
+                    <div class="gallery-overlay">
+                        <span>Real Experience</span>
+                    </div>
+                </div>
+                <div class="gallery-item glass-frame reveal-on-scroll delay-1">
+                    <img src="images/media__1777445330042.png" alt="Cafe Real Moments">
+                    <div class="gallery-overlay">
+                        <span>Real Moments</span>
+                    </div>
+                </div>
+                <div class="gallery-item glass-frame reveal-on-scroll delay-2">
+                    <img src="images/media__1777445332081.png" alt="Cafe Vibe">
+                    <div class="gallery-overlay">
+                        <span>Cafe Vibe</span>
+                    </div>
+                </div>
+                <div class="gallery-item glass-frame reveal-on-scroll">
+                    <img src="images/media__1777445333591.png" alt="Customer Love">
+                    <div class="gallery-overlay">
+                        <span>Customer Love</span>
+                    </div>
+                </div>
+
+                
+                <!-- Premium Food Images -->
+                <div class="gallery-item glass-frame reveal-on-scroll delay-2">
+                    <img src="images/media__1777446197748.jpg" alt="Crispy Wedges">
+                    <div class="gallery-overlay">
+                        <span>Crispy Wedges</span>
+                    </div>
+                </div>
+                <div class="gallery-item glass-frame reveal-on-scroll">
+                    <img src="images/media__1777446194655.jpg" alt="Cheese Bread">
+                    <div class="gallery-overlay">
+                        <span>Cheese Bread</span>
+                    </div>
+                </div>
+                <div class="gallery-item glass-frame reveal-on-scroll delay-1">
+                    <img src="images/media__1777446196418.jpg" alt="Gourmet Burger">
+                    <div class="gallery-overlay">
+                        <span>Gourmet Burger</span>
+                    </div>
+                </div>
+                <div class="gallery-item glass-frame reveal-on-scroll delay-2">
+                    <img src="images/media__1777446200277.jpg" alt="Spring Rolls">
+                    <div class="gallery-overlay">
+                        <span>Spring Rolls</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews section-padding" id="reviews">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">Words of <span class="text-gold">Love</span></h2>
+                <p>What our guests say about us</p>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card glass-card floating-element reveal-on-scroll">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Great and awesome experince with the service any my personal suggestion to you all guys please do visit at this (Divine cafe) You will enjoy lots of fun with games"</p>
+                    <div class="reviewer">- Arpit vaishy</div>
+                </div>
+                <div class="review-card glass-card floating-element delay-1 reveal-on-scroll">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Very Good Gaming Experience and Food is Splendid And the behaviour of Manager is Very Good All Staff is very Polite and the menu is very reasonable pricing"</p>
+                    <div class="reviewer">- Hero</div>
+                </div>
+                <div class="review-card glass-card floating-element delay-2 reveal-on-scroll">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"My experience has always been soo good, I am visiting it since it opened around my area, cafe is soo cute and they have a lot of options in their menu, all total, i highly recommend it to everyone, go and visit the cafe with ur frnds gang, cafe also has amazing games ❤️"</p>
+                    <div class="reviewer">- Zainab Ishraq</div>
+                </div>
+                <div class="review-card glass-card floating-element reveal-on-scroll">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Best cafe in jagdishpur till now"</p>
+                    <div class="reviewer">- DANISH SIDDIQUI</div>
+                </div>
+                <div class="review-card glass-card floating-element delay-1 reveal-on-scroll">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Best food And Paneer garlic noodles is highly recommended"</p>
+                    <div class="reviewer">- Mehfooz Qureshi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order CTA Section -->
+    <section class="order-cta section-padding" id="order">
+        <div class="container">
+            <div class="cta-box glass-card premium-glow reveal-on-scroll">
+                <div class="cta-content">
+                    <h2>Order Directly & <span class="text-gold">Save on Commission</span></h2>
+                    <p>Get the best prices and exclusive offers when you order directly through WhatsApp.</p>
+                    <a href="https://wa.me/918299324494" class="btn btn-whatsapp pulse-animation" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        Order via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <img src="images/logo.png" alt="Divine Cafe Logo" class="brand-logo-footer">
+                    </a>
+                    <p>Where every bite creates a divine experience.</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><strong>Phone:</strong> <a href="tel:+918299324494">+91 8299324494</a></p>
+                    <p><strong>Address:</strong> Divine Cafe, Shukul Bazar Rd, in front of DJ Coaching Centre, near Petrol Pump, Jagdishpur, Jalalpur, Uttar Pradesh 227809</p>
+                </div>
+
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113941.59755513876!2d81.565809!3d26.4172403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a0d24e16fffff%3A0xc54fb3e614d35099!2sJagdishpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Divine Cafe. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/divinecafe25?igsh=MWpodmZzbGh2Ync0Nw==" target="_blank" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
